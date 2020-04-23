@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+/* Jaapokki Font comes from https://mikkonuuttila.com/jaapokki/ */
+@font-face {
+	font-family: 'jaapokkisubtract-regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('jaapokkisubtract-regular'), url('jaapokkisubtract-regular.woff') format('woff') 
+  }
+
+  body {
+	font-family: 'jaapokkisubtract-regular';
+	font-weight: 200;
+ }

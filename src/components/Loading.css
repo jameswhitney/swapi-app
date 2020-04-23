@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #373B44 , #4286f4); /* w3c */
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@keyframes circle {
+  25% {
+      transform: rotate(140deg);
+      border-style: double dotted;
+      border-color: #2166A3 #3E7FBA #88B8E4 #BBD9F4;
+  }
+  50% {
+      transform: rotate(270deg);
+  }
+}
+
+.spinning::before {
+  content: "";
+  color: white;
+  height: 100px;
+  width: 100px;
+  background: transparent;
+  border-radius: 100%;
+  border: 10px solid #55b7e0;
+  animation: circle 1s infinite;
+}
