@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Swapi-App
+## StarWars Friends
 
 This is a new version of starwars-characters the older version can be [found here](https://github.com/jameswhitney/starwars-characters)
 
